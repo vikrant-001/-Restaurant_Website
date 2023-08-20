@@ -7,7 +7,7 @@ const BackDrop = (props) => {
 
 const ModelOverLay = (props) => {
     return (
-        <div className={classes.model}>
+        <div className={classes.modal}>
             <div className={classes.content}>{props.children}</div>
         </div>
     )
